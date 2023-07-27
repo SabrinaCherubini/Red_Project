@@ -1,0 +1,99 @@
+
+:root{
+    --acc: #ececec;
+    --sec:darkred;
+    --main: #C67F7F; 
+}
+
+.Logo{
+    width: 200px;
+    height: 80px;
+}
+
+
+*{
+font-family: 'Rajdhani', sans-serif;
+}
+
+
+h1{
+font-family: 'Nova Square', cursive;
+}
+
+.header{
+    height: 800px;
+    background-image: linear-gradient(rgb(255, 255, 255)
+    ,rgba(250, 249, 249, 0.555),rgba(236, 236, 236, 0.212) ), url('./media/mountainRed.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.title{
+    word-spacing: 200px;
+    letter-spacing: 70px;
+    color:var(--sec);
+    font-size: 90px;
+}
+.mountains{
+    height: 700px;
+    background-image: url('./media/mountains.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.position-mountain{
+    top: 35%;
+}
+
+
+/* section paragraph with pseudo element */
+.paragraph{
+    font-style: oblique;
+    font-size:24px;
+  opacity: 0.7;
+}
+
+p.pseudo::before{ 
+  content:'"';
+  color:var(--sec);
+  font-size:50px;
+  font-weight: bold;
+  position: absolute;
+  top:-20px;
+  left:0%
+  
+}
+
+p.pseudo::after{ 
+    content:'"';
+    color:var(--sec);
+    font-size:50px;
+    font-weight: bold;
+    position: absolute;
+  }
+
+  /* section cards */
+  .margin{
+    margin-top:200px;
+  }
+
+  .redBorder{
+    border-bottom: solid 5px var(--sec);
+   padding-bottom: 2px;
+  }
+
+  /* icon */
+  .fa-lg{
+    color: var(--sec);
+  }
+
+  .fa-circle {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+ 
+  }
+
+ 
