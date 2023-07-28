@@ -16,8 +16,14 @@ font-family: 'Rajdhani', sans-serif;
 }
 
 
-h1{
+h1,h2{
 font-family: 'Nova Square', cursive;
+color:var(--sec);
+}
+
+h4{
+  color:var(--sec);
+
 }
 
 .header{
@@ -96,4 +102,52 @@ p.pseudo::after{
  
   }
 
+
+  .m-wrapper{
+    margin-top: 180px;
+
+  }
+  .wrapper{
+   min-width: 60vh;
+  }
+
+  .bg-mountain{
+    height: 70vh;
+    background-image: url('/media/trees2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+.bg-color{
+  background-color: rgba(112, 111, 111, 0.103);
+}
  
+/* button red */
+.btn-red{
+  background-color: var(--sec);
+  color: white;
+  border: var(--sec);
+  width: 13%;
+  padding: 8px 30px ;
+}
+
+/* section timeline */
+.timeline{
+height: 70vh;
+}
+
+.border-time{
+ border-left: solid var(--sec) 4px;
+}
+
+.background{
+  background-image: url('/media/single.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+ background-position: bottom;
+}
+
+/* 
+/* OUR TEAM */
+
