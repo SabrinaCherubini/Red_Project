@@ -156,8 +156,8 @@ min-height: 70vh;
 }
 
 .imgCard{
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   padding: 8px;
   border-radius: 100%;
   border: solid var(--sec) 4px;
@@ -168,6 +168,29 @@ h6{
   color:var(--sec);
   font-size: 20px;
 
+}
+
+/* OUR BENEFIT */
+.imgSea{
+  height: 240px;
+  width: 240px;
+  padding: 8px;
+  border-radius: 100%;
+  border: solid var(--sec) 4px;
+  
+}
+
+/* red mountain */
+.bg-mountainRed{
+  background-image: url("/media/other.png");
+  background-repeat: no-repeat;
+  background-position: center;
+ min-height: 400px;
+}
+
+/* footer */
+.bg-footer{
+  background-color:var(--sec);
 }
 
 
