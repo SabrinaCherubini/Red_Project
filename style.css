@@ -91,7 +91,7 @@ p.pseudo::after{
   }
 
   /* icon */
-  .fa-lg{
+  .fa-lg,.fa-brands{
     color: var(--sec);
   }
 
@@ -134,7 +134,7 @@ p.pseudo::after{
 
 /* section timeline */
 .timeline{
-height: 70vh;
+min-height: 70vh;
 }
 
 .border-time{
@@ -149,5 +149,25 @@ height: 70vh;
 }
 
 /* 
-/* OUR TEAM */
+/* OUR TEAM  sez CARDS*/
+
+.ourTeam{
+  margin-top: 100px;
+}
+
+.imgCard{
+  height: 200px;
+  width: 200px;
+  padding: 8px;
+  border-radius: 100%;
+  border: solid var(--sec) 4px;
+  
+}
+
+h6{
+  color:var(--sec);
+  font-size: 20px;
+
+}
+
 
